@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
 html {
   font-size: 14px;
 }
@@ -15,4 +17,52 @@ html {
 
 body {
   margin-bottom: 60px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* About page */
+
+.about-title {
+  font-weight: 800;
+  display: inline-block;
+  background-image: linear-gradient(to right, rgb(44, 122, 238), rgb(45, 196, 113)); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 4px rgba(205, 231, 88, 0.4);
+}
+
+.about-row {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#my-image {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  max-width: 512px;
+  border-radius: 999px;
+  box-shadow: 0 1rem 2rem -0.5rem rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 991px) {
+  #my-image {
+    margin-top: 2rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-row {
+    max-width: 100%;
+  }
+
+  #my-image {
+    min-width: 240px;
+  }
 }

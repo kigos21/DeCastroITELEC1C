@@ -7,6 +7,22 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.navbar-nav {
+  justify-content: end;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 8px;
+}
+
 a {
   color: #0077cc;
 }

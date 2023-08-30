@@ -8,6 +8,22 @@ a.navbar-brand[b-m0vq1vsj7v] {
   word-break: break-all;
 }
 
+.navbar-nav[b-m0vq1vsj7v] {
+  justify-content: end;
+}
+
+.navbar-brand[b-m0vq1vsj7v] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-name[b-m0vq1vsj7v] {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 8px;
+}
+
 a[b-m0vq1vsj7v] {
   color: #0077cc;
 }

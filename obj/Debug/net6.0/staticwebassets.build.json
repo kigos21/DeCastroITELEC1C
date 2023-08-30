@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zG+a65bpVdWuq8l6DIk/DqeJ7eaU8FBgZDdIRdk/kYs=",
+  "Hash": "SFaI72nsWRKK5IZzo507phvmwBJffntZXBHqhAmZL48=",
   "Source": "DeCastroITELEC1C",
   "BasePath": "_content/DeCastroITELEC1C",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/jd/Github/DeCastroITELEC1C/wwwroot/images/home.png",
+      "SourceId": "DeCastroITELEC1C",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jd/Github/DeCastroITELEC1C/wwwroot/",
+      "BasePath": "_content/DeCastroITELEC1C",
+      "RelativePath": "images/home.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/home.png"
+    },
+    {
+      "Identity": "/home/jd/Github/DeCastroITELEC1C/wwwroot/images/profile.jpg",
+      "SourceId": "DeCastroITELEC1C",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jd/Github/DeCastroITELEC1C/wwwroot/",
+      "BasePath": "_content/DeCastroITELEC1C",
+      "RelativePath": "images/profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/profile.jpg"
     },
     {
       "Identity": "/home/jd/Github/DeCastroITELEC1C/wwwroot/js/site.js",
