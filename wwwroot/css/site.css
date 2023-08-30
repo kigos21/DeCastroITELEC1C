@@ -41,17 +41,57 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
-#my-image {
-  width: 80%;
+.gradient-bg {
   display: block;
-  margin: 0 auto;
-  max-width: 512px;
   border-radius: 999px;
-  box-shadow: 0 1rem 2rem -0.5rem rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  width: 80%;
+  max-width: 512px;
+
+  position: relative;
+  right: 0.75rem;
 }
 
+.gradient-bg::before {
+  content: "";
+  background: linear-gradient(to right, rgb(44, 122, 238), rgb(45, 196, 113));
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 1rem;
+  left: 1.5rem;
+  border-radius: 999px;
+  z-index: -1;
+}
+
+.box {
+  width: 80%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.box::before {
+  content: "";
+  background: linear-gradient(to right, rgb(44, 122, 238), rgb(45, 196, 113));
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 1rem;
+  left: 1.5rem;
+  border-radius: 999px;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+#my-image {
+  /* box-shadow: 0 1rem 2rem -0.5rem rgba(0, 0, 0, 0.5); */
+  width: 100%;
+  border-radius: 999px;
+}
+
+
 @media (max-width: 991px) {
-  #my-image {
+  .gradient-bg {
     margin-top: 2rem;
     width: 60%;
   }
@@ -62,7 +102,7 @@ h1, h2, h3 {
     max-width: 100%;
   }
 
-  #my-image {
+  .gradient-bg {
     min-width: 240px;
   }
 }
