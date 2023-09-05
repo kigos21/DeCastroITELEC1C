@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using DeCastroITELEC1C.Models;
 
-namespace DeCastroITELEC1C.Controllers;
+namespace DeCastroITELEC1C.Controllers; // something like exporting the classes out of this file
 
 public class HomeController : Controller
 {
